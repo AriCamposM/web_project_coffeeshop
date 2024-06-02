@@ -28,8 +28,10 @@
           />
           <ul class="nav__links">
             <li><a class="nav_link" href="#recipes">Recetas</a></li>
-            <li><a class="nav_link">Reservar una mesa</a></li>
-            <li><a class="nav_link">Contactos</a></li>
+            <li>
+              <a class="nav__link" href="#reservation">Reservar una mesa</a>
+            </li>
+            <li><a class="nav__link" href="#footer">Contactos</a></li>
           </ul>
         </nav>
 
@@ -63,7 +65,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="content__recipes" id="recipes">
+        <section class="content__recipes recipes" id="recipes">
           <h2 class="recipes__title">Recetas</h2>
           <p class="recipes__subtitle">
             Echa un vistazo a las recetas que hemos reunido para que elabores
@@ -102,7 +104,10 @@
             </div>
           </div>
         </section>
-        <section class="content__reservation" id="reservation"></section>
+        <section
+          class="content__reservation reservation"
+          id="reservation"
+        ></section>
       </main>
       <footer class="footer" id="footer"></footer>
     </div>
