@@ -216,7 +216,7 @@ a {
 .reservation__title {
   display: flex;
   padding-top: 100px;
-  padding-bottom: 80px;
+  margin: 0px auto 80px;
   justify-content: center;
 
   font-family: "inter", "Arial", sans-serif;
